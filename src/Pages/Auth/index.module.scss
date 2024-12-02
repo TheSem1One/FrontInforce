@@ -1,0 +1,41 @@
+ 
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255 255 255);
+  overflow: hidden;
+}
+.userActionsContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 47px 0 0;
+  width: 34.64%;
+  
+}
+
+.authActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  width: 27.82%;
+}
+.loginLink{
+    min-width: 0;
+    font: 400 24px/1 "Comic Neue", Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+  cursor: pointer;
+}
+.registerLink {
+  min-width: 0;
+  font: 400 24px/1 "Comic Neue", Helvetica, Arial, serif;
+  color: rgb(0 0 0);
+  text-decoration:underline;
+  border-color:rgb(53, 53, 53) ;
+  cursor: pointer;
+}
+
+

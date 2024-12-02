@@ -1,0 +1,38 @@
+ 
+
+
+
+.userActionsContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34.64%;
+  
+}
+
+.cartIndicator {
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0;
+  margin: 61px 0 0;
+  width: 100%;
+}
+
+.cartItem {
+  min-height: 77px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  border-color:rgb(53, 53, 53) ;
+}
+
+.cartTotal {
+  margin: 51px 85px 0;
+  width: 74.29%;
+  min-height: 57px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28.5px;
+  border-color:rgb(53, 53, 53) ;
+  outline-offset: -2px;
+}
